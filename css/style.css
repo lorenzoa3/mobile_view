@@ -35,3 +35,33 @@ list {
 nav{
   border: 2px solid black;
 }
+
+/* Media query for screens smaller than 768px (e.g., mobile devices) */
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+  
+  h1 {
+    font-size: 24px;
+  }
+  
+  h2, h3 {
+    font-size: 18px;
+  }
+  
+  img {
+    border: 3px solid red;
+    padding: 5px;
+    margin: 10px;
+  }
+  
+  list {
+    display: block;
+    margin-left: 0;
+  }
+  
+  nav {
+    border: 1px solid black;
+  }
+}

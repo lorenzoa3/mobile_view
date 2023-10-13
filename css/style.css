@@ -1,0 +1,37 @@
+body {
+  background-color: linen;
+  color: #371c5b;
+}
+
+h1 {
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  font-size: 30;
+  font-style: italic;
+  text-align: center;
+}
+
+h2, h3 {
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  font-size: 20;
+  color: indigo;
+}
+
+p {
+  line-height: 1.5;
+}
+
+img {
+  border: 5px solid red;
+  padding: 10px;
+  margin: 20px;
+  border-top-right-radius: 30px;
+}
+
+list {
+  display: inline-block;
+  margin-left: 50px;
+}
+
+nav{
+  border: 2px solid black;
+}

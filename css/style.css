@@ -3,6 +3,22 @@ body {
   color: #371c5b;
 }
 
+main {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.profile {
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+.profile img {
+  max-width: 100%;
+  height: auto;
+}
+
 h1 {
   font-family: Brush Script MT, Brush Script Std, cursive;
   font-size: 30;

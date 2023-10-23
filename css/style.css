@@ -113,4 +113,17 @@ nav a.active {
   #skip {
     display: none;
 }
+
+@media (prefers-reduced-motion: reduce) {
+  .gif {
+      animation: none !important;
+      display: none !important;
+      visibility: hidden !important;
+  }
+
+  h2, h3 {
+      animation: none !important;
+  }
+}
+
 }
